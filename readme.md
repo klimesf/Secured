@@ -1,7 +1,7 @@
 Klimesf/Secured
 ===============
 
-`@Secured` annotation for Nette framework inspired by [Spring `@Secured` annotation](http://docs.spring.io/autorepo/docs/spring-security/3.2.2.RELEASE/apidocs/org/springframework/security/access/annotation/Secured.html).
+`@Secured` annotation for Nette framework inspired by [Spring's `@Secured` annotation](http://docs.spring.io/autorepo/docs/spring-security/3.2.2.RELEASE/apidocs/org/springframework/security/access/annotation/Secured.html).
 
 Installation
 ------------
@@ -23,8 +23,6 @@ aspects:
 
 Usage
 -----
-
-Now, you can put annotation @Cached on methods in your services like this:
 
 ```php
 class Service
@@ -52,4 +50,4 @@ Until it's fixed you have to provide fully qualified name of the annotation (`@K
 
 Note: You cannot annotate presenter methods.
 
-Note: This extension is inspired by [`redhead/Cached`](https://github.com/readhead/Cached).
+Note: This extension was inspired by [`redhead/Cached`](https://github.com/redhead/Cached).
