@@ -1,7 +1,7 @@
 Klimesf/Secured
 ===============
 
-`@Secured` annotation for Nette framework.
+`@Secured` annotation for Nette framework inspired by [Spring `@Secured` annotation](http://docs.spring.io/autorepo/docs/spring-security/3.2.2.RELEASE/apidocs/org/springframework/security/access/annotation/Secured.html).
 
 Installation
 ------------
@@ -46,7 +46,7 @@ If current `Nette\Security\User` is not logged in or does not have required role
 Notes
 -----
 
-Note: due to a [bug](https://github.com/Kdyby/Aop/issues/6) in `Kdyby\AOP`, you can't import 
+Note: Due to a [bug](https://github.com/Kdyby/Aop/issues/6) in `Kdyby\AOP`, you can't import 
 the annotation with use statements at this moment.
 Until it's fixed you have to provide fully qualified name of the annotation (`@Klimesf\Secured\Secured`)
 
